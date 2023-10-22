@@ -9,9 +9,9 @@ const Sobrenos = () => {
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <div className='pr-4'>
-              <img src={Sobre1} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg hover:scale-105 duration-300'/>
-              <img src={Sobre2} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg hover:scale-105 duration-300 hidden md:block'/>
-              <img src={Sobre3} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg hover:scale-105 duration-300 hidden md:block'/>
+              <img src={Sobre1} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg lg:hover:scale-105 duration-300'/>
+              <img src={Sobre2} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg lg:hover:scale-105 duration-300 hidden md:block'/>
+              <img src={Sobre3} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg lg:hover:scale-105 duration-300 hidden md:block'/>
             </div>
             
             <div className='flex flex-col justify-center '>

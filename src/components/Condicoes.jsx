@@ -9,6 +9,7 @@ const Condicoes = () => {
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <div className='flex flex-col justify-center '>
+                <img src={Condicoes1} alt="Caravana com toldo aberto" className=' mb-10 rounded-lg lg:hover:scale-105 duration-300 md:hidden'/>
                 <p className='text-[#00df9a] uppercase font-bold'>Regras de aluguer 2023</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Condições</h1>
                 <p className='my-3'>No Aluguer de autocaravana por mais de 5 dias não serão cobrados quaisquer custos adicionais pelos conjuntos de cama disponíveis.</p>
@@ -23,9 +24,9 @@ const Condicoes = () => {
                 <Link to="/autocaravanas"><button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a] hover:scale-105 duration-300'>Ver Autocaravanas</button></Link>
             </div>
             <div className='pl-4'>
-              <img src={Condicoes1} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg hover:scale-105 duration-300'/>
-              <img src={Condicoes2} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg hover:scale-105 duration-300 hidden md:block'/>
-              <img src={Condicoes3} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg hover:scale-105 duration-300 hidden md:block'/>
+              <img src={Condicoes1} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg lg:hover:scale-105 duration-300 hidden md:block'/>
+              <img src={Condicoes2} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg lg:hover:scale-105 duration-300 hidden md:block'/>
+              <img src={Condicoes3} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg lg:hover:scale-105 duration-300 hidden md:block'/>
             </div>
         </div>
     </div>
