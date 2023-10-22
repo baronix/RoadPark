@@ -29,11 +29,11 @@ const handleNav = () => {
             <div className={nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500" : "ease-in-out duration-500 fixed left-[-100%]" }>
                 <img className="p-4 mt-4" src={LogoRoadPark} alt="RoadPark" />
                 <ul className="uppercase p-4">
-                    <li className="p-4"><Link to="/inicio">Início</Link></li>
-                    <li className="p-4"><Link to="/aluguer">Aluguer</Link></li>
-                    <li className="p-4"><Link to="/autocaravanas">Autocaravanas</Link></li>
-                    <li className="p-4"><Link to="/sobre">Sobre</Link></li>
-                    <li className="p-4"><Link to="/contacto">Contacto</Link></li>
+                    <li className="p-4"><Link to="/inicio" onClick={handleNav}>Início</Link></li>
+                    <li className="p-4"><Link to="/aluguer" onClick={handleNav}>Aluguer</Link></li>
+                    <li className="p-4"><Link to="/autocaravanas" onClick={handleNav}>Autocaravanas</Link></li>
+                    <li className="p-4"><Link to="/sobre" onClick={handleNav}>Sobre</Link></li>
+                    <li className="p-4"><Link to="/contacto" onClick={handleNav}>Contacto</Link></li>
                 </ul>
             </div>
         </div>
