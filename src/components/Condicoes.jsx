@@ -23,7 +23,9 @@ const Condicoes = () => {
                 <p className='my-3'>A quilometragem não tem limite .</p>
                 <p className='my-3'>A autocaravana será entregue com o depósito de combustível cheio, depósito de águas cinza e casséte vazias e limpas que deverão ser devolvidas de igual forma.</p>
                 <p className='my-3'>Caso não seja realizada limpeza das águas cinza e cacete antes da devolução da autocaravana serão descontados 30€ do valor da caução.</p>
-                <Link to="/autocaravanas"><button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a] hover:scale-105 duration-300'>Ver Autocaravanas</button></Link>
+                <div className='flex flex-col items-center'>
+                  <Link to="/autocaravanas"><button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a] hover:scale-105 duration-300'>Ver Autocaravanas</button></Link>
+                </div>           
             </div>
             <div className='pl-4'>
               <img src={Condicoes1} alt="Caravana com toldo aberto" className='w-[500px] mx-auto my-4 rounded-lg lg:hover:scale-105 duration-300 hidden md:block'/>

@@ -29,7 +29,9 @@ const Sobrenos = () => {
                 <p className='my-3'>Na RoadPark Renting, não se trata apenas de alugar uma autocaravana; trata-se de criar memórias que durarão toda a vida. Junte-se a nós na estrada e descubra o mundo de uma forma que só o aluguer de autocaravanas pode proporcionar.</p>
                 <p className='my-3'>Estamos ansiosos para ser parte das suas histórias de viagem e ajudá-lo a explorar novos horizontes. Não hesite em contactar-nos para obter mais informações ou para fazer uma reserva. A sua próxima aventura está apenas a um clique de distância!</p>
                 <p className='my-3 italic'>Junte-se a nós e comece a sua jornada hoje!</p>
-                <Link to="/contacto"><button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a] hover:scale-105 duration-300'>Contacte-nos</button></Link>
+                <div className='flex flex-col items-center'>
+                  <Link to="/contacto"><button className='bg-black w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3 text-[#00df9a] hover:scale-105 duration-300'>Contacte-nos</button></Link>
+                </div>
             </div>
         </div>
     </div>
