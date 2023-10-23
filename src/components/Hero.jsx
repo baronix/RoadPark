@@ -1,16 +1,18 @@
 import React from 'react'
 import Typed from "react-typed";
-import Fundo from "../assets/fundo.jpg"
+import Fundo from "../assets/fundo.webp"
 import { Link } from 'react-router-dom';
+import AnimatedPage from './AnimatedPage';
 
 const Hero = () => {
   return (
+    <AnimatedPage>
     <div className='text-white' style={{ 
       backgroundImage: `url(${Fundo})`,
       height: "100%",
     }}>
         <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-            <p className='text-[#00df9a] font-bold p-2'>RoadPark Renting</p>
+            <p className='text-[#00df9a] font-bold p-2 font-mono uppercase'>RoadPark Renting</p>
             <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Alugue uma caravana hoje mesmo!</h1>
             <div className='flex justify-center items-center'>
                 <p className='md:text-5xl sm:text-xl font-bold py-4'>Descubra a beleza</p>
@@ -26,6 +28,7 @@ const Hero = () => {
  */}            <Link to="/aluguer"><button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black hover:scale-105 duration-300'>Condições de aluguer</button></Link>
         </div>
     </div>
+    </AnimatedPage>
   )
 }
 

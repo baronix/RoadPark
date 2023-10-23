@@ -1,16 +1,18 @@
 import React from 'react'
-import Condicoes1 from "../assets/condicoes1.jpg"
-import Condicoes2 from "../assets/condicoes2.jpg"
-import Condicoes3 from "../assets/condicoes3.jpg"
+import Condicoes1 from "../assets/condicoes1.webp"
+import Condicoes2 from "../assets/condicoes2.webp"
+import Condicoes3 from "../assets/condicoes3.webp"
 import { Link } from 'react-router-dom'
+import AnimatedPage from './AnimatedPage'
 
 const Condicoes = () => {
   return (
+    <AnimatedPage>
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <div className='flex flex-col justify-center '>
                 <img src={Condicoes1} alt="Caravana com toldo aberto" className=' mb-10 rounded-lg lg:hover:scale-105 duration-300 md:hidden'/>
-                <p className='text-[#00df9a] uppercase font-bold'>Regras de aluguer 2023</p>
+                <p className='text-[#00df9a] uppercase font-bold font-mono'>Regras de aluguer 2023</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Condições</h1>
                 <p className='my-3'>No Aluguer de autocaravana por mais de 5 dias não serão cobrados quaisquer custos adicionais pelos conjuntos de cama disponíveis.</p>
                 <p className='my-3'>O condutor terá de apresentar a sua carta de condução e ser habilitado da própria há mais de 3 anos.</p>
@@ -30,6 +32,7 @@ const Condicoes = () => {
             </div>
         </div>
     </div>
+    </AnimatedPage>
   )
 }
 

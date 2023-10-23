@@ -1,14 +1,17 @@
 import React from 'react'
 import {FaInstagram, FaFacebookSquare} from "react-icons/fa"
+import AnimatedPage from './AnimatedPage'
 
 
 const Contactenos = () => {
   return (
-    <div>
+    <AnimatedPage>
+    <div className=''>
         
-<div className="container my-24 mx-auto md:px-6">
-  
-  <section className="mb-32">
+<div className="container my-24 mx-auto md:px-6 max-w-[1240px]">
+  <p className=' my-5 text-[#00df9a] font-bold  mx-auto font-mono uppercase'>Contacte-nos através dos seguintes meios</p>
+  <section className="mb-32 ">
+      
     <div
       className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
       <div className="flex flex-wrap items-center">
@@ -102,6 +105,7 @@ const Contactenos = () => {
   </section>
 </div>
     </div>
+    </AnimatedPage>
   )
 }
 

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {AiOutlineClose} from "react-icons/ai";
 import {BiMenuAltRight} from "react-icons/bi";
 import { Link } from "react-router-dom";
-import LogoRoadPark from "../assets/logoroadpark.png"
+import LogoRoadPark from "../assets/logoroadpark.webp"
 
 
 
@@ -30,7 +30,7 @@ const handleNav = () => {
                 <img className="p-4 mt-4" src={LogoRoadPark} alt="RoadPark" />
                 <ul className="uppercase p-4">
                     <li className="p-4"><Link to="/inicio" onClick={handleNav}>Início</Link></li>
-                    <li className="p-4"><Link to="/aluguer" >Aluguer</Link></li>
+                    <li className="p-4"><Link to="/aluguer" onClick={handleNav}>Aluguer</Link></li>
                     <li className="p-4"><Link to="/autocaravanas" onClick={handleNav}>Autocaravanas</Link></li>
                     <li className="p-4"><Link to="/sobre" onClick={handleNav}>Sobre</Link></li>
                     <li className="p-4"><Link to="/contacto" onClick={handleNav}>Contacto</Link></li>

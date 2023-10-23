@@ -1,11 +1,13 @@
 import React from 'react'
-import Sobre1 from "../assets/sobre1.jpg"
-import Sobre2 from "../assets/sobre2.jpg"
-import Sobre3 from "../assets/sobre3.jpg"
+import Sobre1 from "../assets/sobre1.webp"
+import Sobre2 from "../assets/sobre2.webp"
+import Sobre3 from "../assets/sobre3.webp"
 import { Link } from 'react-router-dom'
+import AnimatedPage from './AnimatedPage'
 
 const Sobrenos = () => {
   return (
+    <AnimatedPage>
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <div className='pr-4'>
@@ -15,10 +17,9 @@ const Sobrenos = () => {
             </div>
             
             <div className='flex flex-col justify-center '>
-                <p className='text-[#00df9a] uppercase font-bold'>Sobre nós</p>
+                <p className='text-[#00df9a] uppercase font-bold font-mono'>Um pouco sobre nós</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Bem-vindo à RoadPark Renting - A Sua Aventura Sobre Rodas!</h1>
                 <p className='my-3'>Somos apaixonados por viagens, aventuras e pela liberdade de explorar o mundo à nossa maneira. É por isso que decidimos compartilhar essa paixão com você, oferecendo a oportunidade de viver experiências únicas e inesquecíveis através do aluguer de autocaravanas.</p>
-                <p className='my-3'>A nossa história começou com um grupo de amigos e entusiastas das viagens que queriam tornar as escapadelas de estrada mais acessíveis e convenientes para todos. Desde então, temos vindo a crescer e a aperfeiçoar a nossa frota, os nossos serviços e o nosso compromisso em proporcionar-lhe a melhor experiência de viagem possível.</p>
                 <p className='my-3'>O que nos torna especiais:</p>
                 <p className='my-3'><span className='font-bold'>1. Autocaravanas de Qualidade Superior:</span> A nossa frota de autocaravanas é composta por veículos de alta qualidade, cuidadosamente mantidos e equipados com todas as comodidades necessárias para tornar a sua viagem confortável e memorável.</p>
                 <p className='my-3'><span className='font-bold'>2. Liberdade de Exploração:</span> Acreditamos que as melhores experiências acontecem quando se tem a liberdade de escolher o seu próprio caminho. Com as nossas autocaravanas, você pode explorar destinos deslumbrantes, parques nacionais, praias remotas e cidades vibrantes, tudo no seu próprio ritmo.</p>
@@ -32,6 +33,7 @@ const Sobrenos = () => {
             </div>
         </div>
     </div>
+    </AnimatedPage>
   )
 }
 

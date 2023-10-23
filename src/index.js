@@ -10,6 +10,8 @@ import Contacto from './routes/Contacto';
 import Sobre from './routes/Sobre';
 import Aluguer from './routes/Aluguer';
 import Autocaravanas from './routes/Autocaravanas';
+import Autostar from './components/Autostar';
+import Challenger from './components/Challenger';
 /* const router = createBrowserRouter([
   {
     path: "/",
@@ -50,6 +52,14 @@ const router = createBrowserRouter([
       {
       path: "/sobre",
       element: <Sobre/>
+      },
+      {
+      path: "/autostar",
+      element: <Autostar/>
+      },
+      {
+      path: "/challenger",
+      element: <Challenger/>
       },
     ]
   },
