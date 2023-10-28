@@ -11,7 +11,7 @@ const Condicoes = () => {
     <div className='w-full bg-white py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <div className='flex flex-col justify-center '>
-                <img src={Condicoes1} alt="Caravana com toldo aberto" className=' mb-10 rounded-lg lg:hover:scale-105 duration-300 md:hidden'/>
+                <img src={Condicoes3} alt="Caravana com toldo aberto" className=' mb-10 rounded-lg lg:hover:scale-105 duration-300 md:hidden'/>
                 <p className='text-[#00df9a] uppercase font-bold font-mono'>Regras de aluguer 2023</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Condições</h1>
                 <p className='my-3'>No Aluguer de autocaravana por mais de 5 dias não serão cobrados quaisquer custos adicionais pelos conjuntos de cama disponíveis.</p>
